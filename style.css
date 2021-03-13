@@ -1,0 +1,117 @@
+html,body{
+  width: 100%;
+  height: 100%;
+  overflow-y: hidden;
+  overflow-x: hidden;
+
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.main{
+  width: 100%;
+  height: 120%;
+  background-color: hsl(257, 40%, 49%);
+  background-image: url(images/bg-desktop.svg);
+  background-size: 100% 100%;
+
+
+
+  background-repeat: no-repeat;
+  background-attachment:
+
+}
+.mock{
+  width: 100%;
+
+  padding: 8%;
+}
+.row{
+width: 100%;
+height: 100%;
+}
+h2{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  color: #fff;
+  line-height: 1.5;
+}
+p{
+  color: #fff;
+  font-size: 1rem;
+}
+.build{
+  padding: 5% 15% 10% 5%;
+}
+.logo{
+  width: 12%;
+  margin-left: 50px;
+  margin-top: 30px;
+
+}
+.btn{
+  color: hsl(300, 69%, 71%);
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-left: 20px;
+
+}
+.social ul{
+  float: right;
+  display: flex;
+margin-bottom: 0;
+position: absolute;
+right:  30px;
+bottom: 50px;
+
+}
+.social ul li {
+  list-style: none;
+  margin-right: 20px;
+
+
+}
+.social ul li a{
+  border: 1px solid white;
+  border-radius: 50%;
+}
+.fa{
+  padding: 5px;
+  color: #fff;
+}
+.social ul li a{
+
+  transition: 0.6s ease;
+}
+.social ul li a:hover{
+ transform: translate(0,-10px);
+ border-color:  hsl(300, 69%, 71%);
+ color:  hsl(300, 69%, 71%);
+
+  }
+   .social ul li .fa{
+     transition: .6s;
+   }
+   .social ul li .fa:hover{
+     color:  hsl(300, 69%, 71%);
+   }
+   .btn:hover{
+     background-color:  hsl(300, 69%, 71%);
+     border-color:  hsl(300, 69%, 71%);
+     color: #fff;
+   }
+@media screen and (max-width: 765px) {
+  .build{
+    text-align: center;
+    padding: 5% 15% 10% 15%;
+  }
+  .social ul{
+    position: initial;
+    float: none;
+    width: 130px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+  }
+
+}
